@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Random Tasks</string>
+    <string name="five_tasks">Five Tasks</string>
+    <string name="ten_tasks">Ten Tasks</string>
+    <string name="fifteen_tasks">Fifteen Tasks</string>
 </resources>
