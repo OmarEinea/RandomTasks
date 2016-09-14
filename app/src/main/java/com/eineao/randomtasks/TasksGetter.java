@@ -1,7 +1,5 @@
 package com.eineao.randomtasks;
 
-import android.util.Log;
-
 import com.eineao.randomtasks.InterestsGetter.Interest;
 
 import java.util.ArrayList;
@@ -54,16 +52,13 @@ public class TasksGetter {
                 do interest = random.nextInt(10);
                 while (!InterestsGetter.INTERESTS.get(interest).mFavored);
                 pickedTasks[i][0] = interest;
-                Log.i("Interest", "" + interest);
 
                 task = random.nextInt(5);
                 pickedTasks[i][1] = task;
-                Log.i("Task", "" + task);
 
                 for (int j = 0; j < i; j++)
                     if (pickedTasks[i][0] == pickedTasks[j][0] &&
                             pickedTasks[i][1] == pickedTasks[j][1]) repeatedTask = true;
-                Log.i("Repeated Task", "" + repeatedTask);
             } while (repeatedTask);
 
             do {
@@ -74,7 +69,6 @@ public class TasksGetter {
 
                 for (int j = 0; j < i; j++)
                     if (pickedTasks[i][2] == pickedTasks[j][2]) repeatedTask = true;
-                Log.i("Repeated Color", "" + repeatedTask);
             } while (repeatedTask);
 
             TASKS.add((new Task(colors[color], imagesIds[interest][task],
