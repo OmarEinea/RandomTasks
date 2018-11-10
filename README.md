@@ -1,13 +1,17 @@
-# Android App - Random Tasks
+# Random Tasks
 
-####You can check out this app in action right [here](https://appetize.io/app/huxngrdczu1vcm03759zzkekp0)
+An Android application that displays random tasks to the user to do every now and then.
+Tasks can be customized from the list of categories in the Interests tab,
+and once a task is mark as complete, it will be displayed in today's Progress tab.
+This was a small project for Design & Authoring course in my university.
 
-> - It'll give you Random simple and useful Tasks that everone should do every now and then
+## Screenshots
 
-> - This was a project for Design & Authoring course.
+![](./screenshots.png)
 
-####License
+## License
 
-Copyright (C) 2015 by Omar Einea.
+Copyright (C) 2018 by Omar Einea.
 
-This website is licensed under MIT License. A copy of the license can be found [here](https://github.com/OmarEinea/RandomTasks/blob/master/LICENSE.md).
+This website is licensed under MIT License.
+A copy of the license can be found [here](./LICENSE.md).
